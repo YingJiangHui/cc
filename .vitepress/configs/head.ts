@@ -35,18 +35,18 @@ export const head: HeadConfig[] = [
   //   'meta',
   //   { name: 'twitter:image', content: 'https://i.theojs.cn/avatar.webp' }
   // ],
-  [
-    'script',
-    {
-      type: 'application/ld+json',
-      innerHTML: JSON.stringify({
-        '@context': 'https://schema.org',
-        '@type': 'WebSite',
-        url: 'https://xx.theojs.cn/',
-        name: '玄学宝典',
-        description: '中华传统五术书籍传世经典著作',
-        author: { '@type': 'Person', name: 'Theo-Messi' }
-      })
-    }
-  ]
+  // [
+  //   'script',
+  //   {
+  //     type: 'application/ld+json',
+  //     innerHTML: JSON.stringify({
+  //       '@context': 'https://schema.org',
+  //       '@type': 'WebSite',
+  //       url: 'https://xx.theojs.cn/',
+  //       name: '玄学宝典',
+  //       description: '中华传统五术书籍传世经典著作',
+  //       author: { '@type': 'Person', name: 'Theo-Messi' }
+  //     })
+  //   }
+  // ]
 ]

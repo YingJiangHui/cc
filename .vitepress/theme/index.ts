@@ -26,9 +26,9 @@ export default {
   extends: DefaultTheme,
   Layout() {
     return h(Layout, null, {
-      'aside-ads-before': () => h(DocAsideLogo, { Aside_Data }),
+      // 'aside-ads-before': () => h(DocAsideLogo, { Aside_Data }),
       'aside-outline-after': () => h(ShareButton),
-      'home-hero-info-before': () => h(Announcement),
+      // 'home-hero-info-before': () => h(Announcement),
       'layout-bottom': () => h(HomeFooter, { Footer_Data })
     })
   },

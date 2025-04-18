@@ -110,9 +110,9 @@ onMounted(() => {
   watch(
     () => route.path, // 监听路由变化，重新挂载评论组件
     () => {
-      clearTimeout(timer.value)
-      setTimeout(() => {
-        const path = decodeURIComponent(route.path)
+      const path = decodeURIComponent(route.path)
+      clearTimeout(timer)
+      timer = setTimeout(() => {
 
         const oldHistory = JSON.parse(visitHistoryJSON.value || '[]')
         // 上次访问的是相同页面 或者是根目录
@@ -125,11 +125,11 @@ onMounted(() => {
           path: decodeURIComponent(route.path),
           time: new Date().toISOString()
         }).slice(divide < 0 ? 0 : divide))
-        nextTick(() => {
-          scroll.y.value = browseProgressMap.value[path] || 0
-        })
-      }, 5000)
 
+      }, 5000)
+      nextTick(() => {
+        scroll.y.value = browseProgressMap.value[path] || 0
+      })
     },
     { immediate: true }
   )
