@@ -59,12 +59,12 @@ export default defineConfig({
   // 主题配置
   themeConfig: {
     // logo
-    logo: {
-      src: 'https://i.theojs.cn/avatar.webp',
-      width: 24,
-      height: 24,
-      alt: 'Logo'
-    },
+    // logo: {
+    //   src: 'https://i.theojs.cn/avatar.webp',
+    //   width: 24,
+    //   height: 24,
+    //   alt: 'Logo'
+    // },
 
     // 社交链接
     socialLinks,

@@ -8,33 +8,33 @@ hero:
   tagline: 中华传统五术书籍传世经典著作
   image: https://doc.theojs.cn/index/home.webp
 
-  prelink:
-    # content: '<span class="activity-text" style="display: inline-flex; align-items: center;"><img src="https://i.theojs.cn/logo/qyt.webp" style="height:0.65em; "/>IPLC纯专线内网传输线路 最高2.5Gbps速率!</span>'
-    title: '🎉 青云梯 85折 特惠开启!'
-    content: '
-    · 全场 <span class="activity-text"> 85折 </span>优惠码 <span class="activity-text"> qyt85 </span></br>
-    · 站内折上折高达 <span class="activity-text" > 48折 </span> '
-    # date: '2025年2月12日23时59分'
-    # # dateIcon: 'mdi:calendar-star'
-    # dateText: '活动截止日期'
-    link: https://qytcc01.qingyunti.pro/register?aff=jjgD79Jd
+#  prelink:
+#    # content: '<span class="activity-text" style="display: inline-flex; align-items: center;"><img src="https://i.theojs.cn/logo/qyt.webp" style="height:0.65em; "/>IPLC纯专线内网传输线路 最高2.5Gbps速率!</span>'
+#    title: '🎉 青云梯 85折 特惠开启!'
+#    content: '
+#    · 全场 <span class="activity-text"> 85折 </span>优惠码 <span class="activity-text"> qyt85 </span></br>
+#    · 站内折上折高达 <span class="activity-text" > 48折 </span> '
+#    # date: '2025年2月12日23时59分'
+#    # # dateIcon: 'mdi:calendar-star'
+#    # dateText: '活动截止日期'
+#    link: https://qytcc01.qingyunti.pro/register?aff=jjgD79Jd
 
   actions:
     - theme: brand
       text: 开始学习
       link: /山/博山篇
-
-    - theme: alt
-      text: 提交书籍与纠错
-      link: /提交书籍与纠错
-
-    - theme: brand
-      text: ❤️ 成为赞助商
-      link: https://i.theojs.cn/docs/202405201759098.webp
-
-    - theme: custom-alt
-      text: Theo-Docs
-      link: https://doc.theojs.cn
+#
+#    - theme: alt
+#      text: 提交书籍与纠错
+#      link: /提交书籍与纠错
+#
+#    - theme: brand
+#      text: ❤️ 成为赞助商
+#      link: https://i.theojs.cn/docs/202405201759098.webp
+#
+#    - theme: custom-alt
+#      text: Theo-Docs
+#      link: https://doc.theojs.cn
 
 features:
   - title: 山
@@ -74,5 +74,5 @@ features:
     link: 提交书籍与纠错
     # linkText: 提交
 ---
-
+<History />
 <Home />
