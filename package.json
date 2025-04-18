@@ -14,6 +14,7 @@
       "prettier --write --ignore-unknown"
     ]
   },
+  "type": "module",
   "devDependencies": {
     "@mdit/plugin-footnote": "^0.16.8",
     "@theojs/lumen": "^5.4.0",
@@ -29,7 +30,6 @@
   },
   "packageManager": "pnpm@10.7.1",
   "dependencies": {
-    "@vueuse/core": "^13.1.0",
-    "dayjs": "^1.11.13"
+    "@vueuse/core": "^13.1.0"
   }
 }
