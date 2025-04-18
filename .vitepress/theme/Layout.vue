@@ -45,7 +45,7 @@ const { route } = useRouter() // 页面路由对象
 const visitHistoryJSON = useLocalStorage('visit-history')
 const browseProgressMapJSON = useLocalStorage('browse-progress-map')
 const browseProgressMap = computed(() => JSON.parse(browseProgressMapJSON.value || '{}'))
-const maxHistory = 20
+const maxHistory = import.meta.env.MAX_HISTORY_COUNT || 20;
 
 const scrollDebounce = useDebounceFn(() => {
   const oldBrowseProgressMap = JSON.parse(browseProgressMapJSON.value || '{}')
